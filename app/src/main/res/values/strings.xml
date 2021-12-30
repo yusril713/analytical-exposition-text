@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Analytical Exposition Text</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="err_name">Enter a valid name</string>
+    <string name="err_user">Enter a valid nip or nis</string>
+    <string name="err_email">Enter a valid email address</string>
+    <string name="err_pass">Enter some password</string>
+    <string name="err_pass_conf">Enter a valid password</string>
+    <string name="err_phone">Enter a valid phone number</string>
+
+    <string name="err_soal">Masukkan soal..</string>
+    <string name="err_pila">Masukkan pilihan a...</string>
+    <string name="err_pilb">Masukkan pilihan b...</string>
+    <string name="err_pilc">Masukkan pilihan c...</string>
+    <string name="err_pild">Masukkan pilihan d...</string>
+    <string name="err_jawaban">Pilih jawaban...</string>
+</resources>

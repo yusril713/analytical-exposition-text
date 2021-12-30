@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTeks1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="120dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTeks2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="120dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTeks1" />
+
+    <TextView
+        android:id="@+id/tvTeks3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="120dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTeks2" />
+
+    <TextView
+        android:id="@+id/tvTeks4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="120dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTeks3" />
+
+    <TextView
+        android:id="@+id/tvTeks5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="120dp"
+        android:text="TextView"
+        android:textColor="@color/color_app"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTeks4" />
+
+    <TextView
+        android:id="@+id/tvKet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTeks1"
+        app:layout_constraintStart_toEndOf="@+id/tvTeks1"
+        app:layout_constraintTop_toTopOf="@+id/tvTeks1" />
+
+    <TextView
+        android:id="@+id/tvKet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTeks2"
+        app:layout_constraintStart_toEndOf="@+id/tvTeks2"
+        app:layout_constraintTop_toTopOf="@+id/tvTeks2" />
+
+    <TextView
+        android:id="@+id/tvKet3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTeks3"
+        app:layout_constraintStart_toEndOf="@+id/tvTeks3"
+        app:layout_constraintTop_toTopOf="@+id/tvTeks3" />
+
+    <TextView
+        android:id="@+id/tvKet4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTeks4"
+        app:layout_constraintStart_toEndOf="@+id/tvTeks4"
+        app:layout_constraintTop_toTopOf="@+id/tvTeks4" />
+
+    <TextView
+        android:id="@+id/tvKet5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="@color/color_app"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTeks5"
+        app:layout_constraintStart_toEndOf="@+id/tvTeks5"
+        app:layout_constraintTop_toTopOf="@+id/tvTeks5" />
+
+    <ImageButton
+        android:id="@+id/btnHapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTeks5"
+         />
+</androidx.constraintlayout.widget.ConstraintLayout>

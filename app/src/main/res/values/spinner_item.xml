@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Pilih Materi</item>
+        <item>REMEMBER</item>
+        <item>ANALYSE</item>
+        <item>UNDERSTAND</item>
+        <item>EVALUATE</item>
+        <item>APPLY</item>
+        <item>CREATE</item>
+    </string-array>
+
+    <string-array name="spinnerJawaban">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="spinnerJenisSoal">
+        <item>Multiple choice</item>
+        <item>True or False</item>
+    </string-array>
+
+    <string-array name="spinnerJenisKelamin">
+        <item>Jenis Kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="spinnerJenisAnalyse">
+        <item>CHOOSE</item>
+        <item>THESIS</item>
+        <item>ARGUMENT 1</item>
+        <item>ARGUMENT 2</item>
+        <item>ARGUMENT 3</item>
+        <item>REITERATION</item>
+    </string-array>
+    <string-array name="spinnerPenilaian">
+        <item>Belum dinilai</item>
+        <item>Sudah dinilai</item>
+    </string-array>
+    <string-array name="filterBy">
+        <item>All</item>
+        <item>All with details</item>
+        <item>By date</item>
+        <item>By date with details</item>
+    </string-array>
+    <string-array name="filter">
+        <item>All</item>
+        <item>By date</item>
+    </string-array>
+</resources>
